@@ -6,6 +6,7 @@ body{
     background-size: cover;
 }
 .container{
+    position: relative;
     max-width: 350px;
     width: 100%;
     display: flex;
@@ -13,11 +14,22 @@ body{
     justify-content: center;
     background-color: #ecf0f3;
     border-radius: 20px;
-    position: absolute;
-    left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%;
+    transform: translate(-50%,-50%);
     opacity: 85%;
+}
+.name{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+    opacity: 50%;
 }
 .calc{
     border-radius: 28px;
@@ -25,12 +37,12 @@ body{
     display: grid;
     grid-template-columns: repeat(4,66px);
 }
-input{
+#inputtext{
     grid-column:span 4;
     height: 68px;
     width: 260px;
+    box-shadow: 5px 5px 20px red;
     box-shadow: inset -5px -5px 30px gray;
-    background-color: #ecf0f3;
     border: none;
     border-radius: 32px;
     text-align: right;
@@ -48,9 +60,18 @@ button{
     margin: 10px;
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
 }
 .equal{
     width: 120px;
     border-radius: 42px;
     box-shadow: inset -1px -1px 30px gray;
+    background-color: green;
+    color: white;
+}
+.red{
+    background-color: rgb(255, 63, 63);
+    color: white;
 }

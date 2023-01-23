@@ -1,9 +1,5 @@
 let mathInput = document.getElementById('inputtext')
 
-// const newsize = ()=>{if(mathInput.value.length>13){
-//     mathInput.style.fontSize='22px'
-// }}
-
 const fontSize = ()=>{if(mathInput.value.length<13){
     mathInput.style.fontSize='30px'
 }else{
