@@ -7,7 +7,7 @@ body{
 }
 .container{
     position: relative;
-    /* max-width: 350px; */
+    max-width: 350px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@ body{
     transform: translate(-50%,-50%);
     opacity: 85%;
 }
-/* .name{
+.name{
     position: absolute;
     top: 5px;
     right: 5px;
@@ -30,14 +30,14 @@ body{
     border-radius: 50%;
     padding: 10px;
     opacity: 50%;
-} */
-/* .calc{
+}
+.calc{
     border-radius: 28px;
     padding: 16px;
     display: grid;
     grid-template-columns: repeat(4,66px);
-} */
-/* #inputtext{
+}
+#inputtext{
     grid-column:span 4;
     height: 68px;
     width: 260px;
@@ -48,7 +48,7 @@ body{
     padding: 20px;
     font-size: 30px;
     background-color: rgb(218, 216, 216);
-} */
+}
 .button{
     box-shadow: 3px 3px 30px gray;
     background-color: #ecf0f3;
@@ -62,12 +62,12 @@ body{
     color: black;
     cursor: pointer;
 }
-/* .equal{
+.equal{
     width: 120px;
     border-radius: 42px;
     background-color: green;
     color: white;
-} */
+}
 .red{
     background-color: rgb(255, 63, 63);
     color: white;
